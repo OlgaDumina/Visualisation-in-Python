@@ -783,7 +783,7 @@ def geomap (df) :
     fig.show()
   
 # select data for Ukraine
-ukr_data = select_data('v4.mean_GISS_homogenized.txt', 'UP')
+ukr_data = select_data('v4.mean_GISS_homogenized_kurz.txt', 'UP')
 print(ukr_data.head())
 print(ukr_data.info())
 ukr_data.to_csv('ukr_data.csv', index = False)
